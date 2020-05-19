@@ -1,4 +1,4 @@
-def funcVelo(velocidade, tempo, espaco):
+def funcVelo(tempo, espaco):
   velocidadeMedia = espaco / tempo
   aceleracao = velocidadeMedia / tempo
   print(velocidadeMedia)
@@ -7,6 +7,5 @@ def funcVelo(velocidade, tempo, espaco):
   
 espaco = float(input())
 tempo = float(input())
-velocidade = float(input())
 
-funcVelo(velocidade, tempo, espaco)
+funcVelo(tempo, espaco)
