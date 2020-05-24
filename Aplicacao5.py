@@ -1,11 +1,8 @@
-def funcVelo(tempo, espaco):
-  velocidadeMedia = espaco / tempo
-  aceleracao = velocidadeMedia / tempo
-  print(velocidadeMedia)
-  print(aceleracao)
-  
-  
-espaco = float(input())
-tempo = float(input())
+def hipotenusa(cat1, cat2):
+    hip = (cat1 ** 2 + cat2 ** 2) ** (1/2)
+    print(hip)
 
-funcVelo(tempo, espaco)
+cateto1 = int(input())
+cateto2 = int(input())
+
+hipotenusa(cateto1, cateto2)
